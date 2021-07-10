@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>facebook/html/css</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="icons8-facebook-48.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../icons8-facebook-48.png" type="image/x-icon">
 </head>
 <body>
     <div class="cantainer">
@@ -15,7 +15,8 @@
                 <a class="logo-text" href="index.html">facebook</a>
             </div>
             <div class="login">
-                <form action="">
+                <button class="account-logn" type="button">Log in to Existing Account</button>
+                <!-- <form id="formId" action="">
                     <table class="login-data">
                       <tr>
                           <td> <label class="login-label" for="text">Email or Mobile</label></td>
@@ -31,31 +32,28 @@
                           <td><a class="forgotten-ac password" href=""> Forgotten Account?</a></td>
                       </tr>
                     </table>
-                </form>
+                </form> -->
             </div>
         </div>
         <div class="main-body">
-            <div class="left-part">
-                <p class="quots">facebook helps you connect and share with the <br>people in your life.</p>
-            </div>
             <div class="right-part">
-                <h1>Create an account</h1>
-                <p>It's quick and easy.</p>
+                <h1 class="right-head">Create a new account</h1>
+                <p class="second-head">It's quick and easy.</p>
 
-                <form action="">
-                    <input class="first-name" type="text" name="" id="" placeholder="First name">
-                    <input class="surname" type="text" name="" id="" placeholder="Surname">
+                <form id="formValidate" action="">
+                    <input class="first-name" type="text" name="fname"  placeholder="First name">
+                    <input class="surname" type="text" name="surname"  placeholder="Surname">
                     <div>
-                        <input class="mobile-emali" type="email,number" name="" id="" placeholder="Mobile number or email address">
+                        <input class="mobile-emali" type="email,number" name="phone"  placeholder="Mobile number or email address">
                     </div>
                     <div>
-                        <input class="new-password" type="password" name="" id="" placeholder="New password">
+                        <input class="new-password" type="password" name="password"  placeholder="New password">
                     </div>
                     <div  class="birthday" >
                     <label class="birthday-label" for="">Birthday</label>
                     </div>
                     <div class="birthdate">
-                        <select class="day-select" name="" id="">
+                        <select class="day-select" name="day">
                             <option value="">Day</option>
                             <option value="">1</option>
                             <option value="">2</option>
@@ -63,32 +61,35 @@
                             <option value="">4</option>
                             <option value="">5</option>
                         </select>
-                        <select class="month-select" name="" id="">
+                        <select class="month-select" name="month">
                             <option value="">Month</option>
+                            <option value="">januery</option>
                         </select>
-                        <select class="year-select" name="" id="">
+                        <select class="year-select" name="year">
                             <option value="">Year</option>
+                            <option value="">1999</option>
                         </select>
                         <a class="qustion-mark" href="">?</a>
                     </div>
                     <div class="gender">
                         <label class="gender-label" for="">Gender</label>
                     </div>
-                    <input class="gender-radio" type="radio" name="gender" id="">Female
-                    <input class="gender-radio" type="radio" name="gender" id="">Male
-                    <input class="gender-radio" type="radio" name="gender" id="">Custom
+                    <input class="gender-radio" type="radio" name="gender">Female
+                    <input class="gender-radio" type="radio" name="gender">Male
+                    <input class="gender-radio" type="radio" name="gender">Custom
                     <a class="qustion-mark" href="">?</a>
                 </form>
-                <h6>By clicking Sign Up, you agree to our <a class="terms" href="">Trems,Data Policy</a> and <br> <a href=""> Cookie Policy</a>.
+                <h6>By clicking Sign Up, you agree to our <a class="terms" href="">Trems,Data Policy</a> and <br> <a class="terms" href=""> Cookie Policy</a>.
                      You may receive SMS notifications from us and <br> can opt out at any time.</h6>
-                <button class="sign-up" type="submit">Sign Up</button>
+                <button class="sign-up" type="button">Sign Up</button>
 
             </div>
         </div>
     </div>
-    <script src="/plugins/CDN/JQuery cdn.js"></script>
-    <script>
-
-    </script>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js">
+    <link rel="stylesheet" href="/app.js">
 </body>
 </html>

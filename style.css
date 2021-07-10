@@ -9,7 +9,7 @@ body{
 }
 .logo{
      width: 50%;
-     padding-top: 35px;
+     padding-top: 15px;
      float: left;
 }
 .login{
@@ -19,8 +19,8 @@ body{
      
 }
 .logo-text{
-    color: white;
-    font-size: 35px;
+    color: rgb(225,225,225);
+    font-size: 40px;
     font-weight: bold;
     text-decoration: none;
     font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
@@ -57,35 +57,22 @@ body{
 .forgotten-ac:hover{
    color: black;
 }
-.left-part .right-part{
-    width: 50%;
-}
 .main-body{
-    background: linear-gradient(white, #D3D8E8);
+    background: linear-gradient(#D3D8E8,white);
     height: 500px;
-}
-.quots{
-    font-weight: bold;
-    line-height: 24px;
-    font-size: 20px;
-    
-}
-.left-part{
-    padding-left: 180px;
-    margin-top: 30px;
-    float: left;
+    padding-top: 1px;
+    margin-top: -20px;
 }
 .right-part{
-    float: left;
-    margin-left: 160px;
-    margin-top: 15px;
+    margin-left: 470px;
+    
 }
 .first-name, .surname, .mobile-emali, .new-password{
     font-size: 15px;
     border-color: rgba(195,195,195,.5);
-    border-radius: 4px;
+    border-radius: 7px;
     border-style:double;
-    height: 25px;
+    height: 35px;
 }
 .surname{
     padding-left: 5px;
@@ -119,26 +106,57 @@ body{
     margin-top: 10px;
 }
 .birthdate{
-    padding-top: 5px;
+    padding-top: 10px;
 }
 .gender{
-    margin-top: 7px;
+    margin-top: 10px;
 }
 .gender-radio{
-    margin-top: 8px;
+    margin-top: 10px;
 
 }
 .sign-up{
-    background: linear-gradient( rgb(0, 120,0),rgb(0,50,0));
-    height: 30px;
-    width: 150px;
+    background: rgba(0, 120,0,0.7);
+    height: 45px;
+    width: 220px;
     color: white;
     border-radius: 5px;
     border: none;
+    margin-top: -15px;
 }
 .terms{
-    text-decoration: none;
+    color: #3b5998;
+}
+h6{
+    color:rgba(150,150,150,0.9); 
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: lighter;
+    padding-top: -20px;
+    margin-top: 5px;
+
 }
 .sign-up:hover{
     background: rgb(0,120,0);
+}
+.right-head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.second-head{
+    font-size: 22px;
+    margin-top: -18px;
+    color: rgba(150,150,150,0.9);
+}
+.account-logn{
+    margin-left: 320px;
+    margin-top: 15px;
+    color: aliceblue;
+    background:#4267b2;
+    border: #021a49;
+    height: 20px;
+}
+.account-logn:hover{
+    background: #3b5998;
 }
